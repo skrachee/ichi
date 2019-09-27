@@ -24,10 +24,6 @@ cp ../alfonsoalonzo/Dockerfile .
 cp ../alfonsoalonzo/config.json .
 ```
 
-# Set API Keys & Telegram Bot ID
-
-- edit config.json in the freqtrade directory and set your API keys
-
 # Build
 
 ```bash
@@ -40,6 +36,10 @@ docker build . -t alfonso
 # creating a docker run alias with mounted directory
 alias bot='docker run -v $PWD:/freqtrade alfonso'
 ```
+
+# Set API Keys & Telegram Bot ID
+
+- edit config.json in the freqtrade directory and set your API keys
 
 # Download Cache
 
