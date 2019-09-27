@@ -54,4 +54,10 @@ bot download-data
 bot -s ichis backtesting
 ```
 
+# Run
+
+```bash
+bot
+```
+
 
