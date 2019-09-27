@@ -28,6 +28,7 @@ cp ../alfonsoalonzo/config.json .
 
 ```bash
 docker build . -t alfonso
+./setup.sh --install
 ```
 
 # Alias
