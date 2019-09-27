@@ -18,12 +18,15 @@ cd freqtrade
 
 # linking freqtrade folders to alfonso
 rm -rf user_data/strategies
+cp -r ../alfonsoalonzo/strategies user_data/strategies 
 rm -rf Dockerfile
-cd ../alfonsoalonzo
-ln -sf strategies ../freqtrade/user_data/strategies 
-ln -sf Dockerfile ../freqtrade/Dockerfile
-ln -sf config.json ../freqtrade/config.json
+cp ../alfonsoalonzo/Dockerfile .
+cp ../alfonsoalonzo/config.json .
 ```
+
+# Set API Keys & Telegram Bot ID
+
+- edit config.json in the freqtrade directory and set your API keys
 
 # Build
 
