@@ -1,6 +1,7 @@
 # Alfonso Alonzo
 
 scratchy ichimoku trading bot
+
 Peaceful trading in the background
 
 # Requirements
@@ -47,6 +48,11 @@ alias bot='docker run -v $PWD:/freqtrade alfonso'
 
 ```bash
 bot download-data
+```
+To customize your ticker intervals and number of days of data to collect
+
+```bash
+bot download-data -t 5m 30m 1h 4h 12h 1d 1w --days 120
 ```
 
 # Back Testing
