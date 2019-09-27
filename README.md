@@ -19,9 +19,10 @@ cd freqtrade
 # linking freqtrade folders to alfonso
 rm -rf user_data/strategies
 rm -rf Dockerfile
-ln -s user_data/strategies ../alfonsoalonzo/strategies
-ln -s Dockerfile ../alfonsoalonzo/Dockerfile
-ln -s config.json ../alfonsoalonzo/config.json
+cd ../alfonsoalonzo
+ln -sf strategies ../freqtrade/user_data/strategies 
+ln -sf Dockerfile ../freqtrade/Dockerfile
+ln -sf config.json ../freqtrade/config.json
 ```
 
 # Build
