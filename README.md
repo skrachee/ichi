@@ -1,7 +1,6 @@
 # Skrachee Ichi
 
-scratchy ichimoku trading bot
-Peaceful trading in the background
+Trailing stop loss ichimoku trading bot. Peaceful mid-term trading...
 
 # Requirements
 
@@ -14,21 +13,21 @@ Peaceful trading in the background
 
 # cloning freqtrade & alfonso repositories
 git clone https://github.com/freqtrade/freqtrade
-git clone http://github.com/michakfromparis/alfonsoalonzo
+git clone http://github.com/skrachee/ichi
 cd freqtrade
 
 # linking freqtrade folders to alfonso
 rm -rf user_data/strategies
-cp -r ../alfonsoalonzo/strategies user_data/strategies 
+cp -r ../ichi/strategies user_data/strategies 
 rm -rf Dockerfile
-cp ../alfonsoalonzo/Dockerfile .
-cp ../alfonsoalonzo/config.json .
+cp ../ichi/Dockerfile .
+cp ../ichi/config.json .
 ```
 
 # Build
 
 ```bash
-docker build . -t alfonso
+docker build . -t ichi
 ./setup.sh --install
 ```
 
@@ -36,7 +35,7 @@ docker build . -t alfonso
 
 ```bash
 # creating a docker run alias with mounted directory
-alias bot='docker run -v $PWD:/freqtrade alfonso'
+alias bot='docker run -v $PWD:/freqtrade ichi'
 ```
 
 # Set API Keys & Telegram Bot ID
