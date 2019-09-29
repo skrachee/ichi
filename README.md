@@ -78,7 +78,9 @@ bot --strategy ichis
 docker run -d \
   --name bot-ichis \
   -v $PWD:/freqtrade \
-  ichi --db-url sqlite:///tradesv3.sqlite --strategy ichis
+  ichi \
+  --db-url sqlite:///tradesv3.sqlite \
+  --strategy ichis
 ```
 
 # Sample Output
