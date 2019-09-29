@@ -48,7 +48,7 @@ class ichis(IStrategy):
     trailing_stop_positive_offset = 0.05  # Disabled / not configured
     trailing_only_offset_is_reached = True
     # Optimal ticker interval for the strategy
-    ticker_interval = '4h'
+    ticker_interval = '1m'
 
     # run "populate_indicators" only for new candle
     process_only_new_candles = False

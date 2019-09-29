@@ -1,9 +1,9 @@
 {
-    "max_open_trades": 10,
+    "max_open_trades": 5,
     "stake_currency": "BTC",
-    "stake_amount": 5,
+    "stake_amount": 0.2,
     "fiat_display_currency": "USD",
-    "ticker_interval" : "5m",
+    // "ticker_interval" : "5m",
     "dry_run": true,
     // "trailing_stop": false,
     "unfilledtimeout": {
@@ -34,14 +34,14 @@
             "rateLimit": 500
         },
         "pair_whitelist": [
-            "BTC/USDT",
-            "BNB/BTC",
+            // "BTC/USDT",
+            "ETH/BTC",
+            // "BCH/BTC",
             "XRP/BTC",
             "XLM/BTC",
             "EOS/BTC",
             "ATOM/BTC",
             "BAT/BTC",
-            "POWR/BTC",
             "TRX/BTC",
         ],
         "pair_blacklist": [
