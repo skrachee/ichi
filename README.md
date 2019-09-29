@@ -76,6 +76,7 @@ bot --strategy ichis
 
 ```bash
 docker run -d \
+  --restart unless-stopped \
   --name bot-ichis \
   -v $PWD:/freqtrade \
   ichi \
