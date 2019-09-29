@@ -42,7 +42,6 @@
             "EOS/BTC",
             "ATOM/BTC",
             "BAT/BTC",
-            "TRX/BTC",
         ],
         "pair_blacklist": [
             "DOGE/BTC"
