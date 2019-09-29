@@ -59,11 +59,15 @@ bot download-data -t 5m 30m 1h 4h 12h 1d 1w --days 120
 ```bash
 bot -s ichis backtesting
 ```
+
 # Create the trades db
 
+```bash
 touch tradesv3.sqlite
+```
 
 # Run
+
 ```bash
 bot --strategy ichis
 ```
