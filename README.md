@@ -6,6 +6,7 @@ Trailing stop loss ichimoku trading bot. Peaceful mid-term trading...
 
 - git
 - docker
+- python
 
 # Installation
 
