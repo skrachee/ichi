@@ -1,7 +1,6 @@
-# Alfonso Alonzo
+# Skrachee Ichi
 
 scratchy ichimoku trading bot
-
 Peaceful trading in the background
 
 # Requirements
