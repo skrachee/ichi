@@ -59,15 +59,27 @@ bot download-data -t 5m 30m 1h 4h 12h 1d 1w --days 120
 ```bash
 bot -s ichis backtesting
 ```
+# Create the trades db
+
+touch tradesv3.sqlite
 
 # Run
-
 ```bash
-bot
+bot --strategy ichis
 ```
 
+# Auto Start
+
+```bash
+docker run -d \
+  --name bot-ichis \
+  -v $PWD:/freqtrade \
+  ichi --db-url sqlite:///tradesv3.sqlite --strategy ichis
+```
 
 # Sample Output
+
+- Backtesting
 
 ```bash
 ====================================================== LEFT OPEN TRADES REPORT ======================================================
