@@ -123,7 +123,7 @@ docker restart bot-ichis
 | POWR/BTC |           1 |           6.07 |           6.07 |       0.30391867 |           0.61 | 2 days, 1:40:00   |        1 |      0 |
 | TRX/BTC  |           1 |          13.25 |          13.25 |       0.66308511 |           1.32 | 21 days, 7:25:00  |        1 |      0 |
 | TOTAL    |           9 |          16.76 |         150.88 |       7.55161684 |          15.09 | 13 days, 19:36:00 |        7 |      2 |
-
+```
 
 - Notmal Initialization
 
@@ -184,5 +184,4 @@ docker restart bot-ichis
 2019-09-30 00:55:55,113 - freqtrade.freqtradebot - INFO - Found no buy signals for whitelisted currencies. Trying again...
 2019-09-30 00:56:00,109 - freqtrade.freqtradebot - INFO - Found no buy signals for whitelisted currencies. Trying again...
 
-```
 ```
