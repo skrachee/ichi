@@ -104,6 +104,9 @@ docker logs -f bot-ichis
 ```bash
 docker restart bot-ichis
 ```
+# Credits
+
+Inpired by https://cryptocue.io
 
 # Sample Output
 
@@ -186,6 +189,3 @@ docker restart bot-ichis
 
 ```
 
-# Credits
-
-Inpired by https://cryptocue.io
