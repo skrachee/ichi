@@ -1,6 +1,6 @@
 # Skrachee Ichi
 
-Trailing stop loss ichimoku trading bot. Peaceful mid-term trading...
+Dockerized freqtrade bot using a trailing stop loss ichimoku cloud strategy. Peaceful mid-term trading...
 
 # Requirements
 
@@ -185,3 +185,7 @@ docker restart bot-ichis
 2019-09-30 00:56:00,109 - freqtrade.freqtradebot - INFO - Found no buy signals for whitelisted currencies. Trying again...
 
 ```
+
+# Credits
+
+Inpired by https://cryptocue.io
