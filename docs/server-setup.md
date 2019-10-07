@@ -1,4 +1,4 @@
-# Setup server ubuntu 19.04
+# Ichi server setup
 
 # Add user and give root permissions
 
@@ -73,7 +73,7 @@ Set up the repository
 ```
 #update the apt package index:
 
-apt-get update
+apt update
 
 #install packages to allow apt to use a repository over HTTPS:
 
@@ -83,9 +83,9 @@ apt-get install \
     curl \
     software-properties-common
 ```
-Add Docker’s official GPG key:
+Add Docker’s official GPG key
 ```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 Set up the stable repository
 ```
@@ -97,8 +97,8 @@ add-apt-repository \
 
 Install docker
 ```
-apt-get update
-apt-get install docker-ce
+apt update
+apt install docker-ce
 ```
 Verify that Docker CE is installed correctly by running the hello-world image.
 ```
