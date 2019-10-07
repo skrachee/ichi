@@ -23,5 +23,6 @@ RUN pip install git+https://github.com/freqtrade/technical
 
 # Install and execute
 COPY . /freqtrade/
+RUN /freqtrade/setup.sh –install
 RUN pip install -e . --no-cache-dir
 ENTRYPOINT ["freqtrade"]
