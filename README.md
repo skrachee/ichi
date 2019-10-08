@@ -29,6 +29,9 @@ cp ../ichi/config.json .
 
 ```bash
 docker build . -t ichi
+apt install python-3 pip
+apt install python3-venv
+apt install python3-dev
 ./setup.sh --install
 ```
 
